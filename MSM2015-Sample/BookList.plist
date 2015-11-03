@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>表題</key>
+		<string>Xcode 5 徹底解説</string>
+		<key>著者</key>
+		<string>熊谷友宏</string>
+		<key>価格</key>
+		<integer>3110</integer>
+		<key>種類</key>
+		<string>電子書籍</string>
+		<key>発売日</key>
+		<date>2014-05-04T15:00:00Z</date>
+	</dict>
+	<dict>
+		<key>表題</key>
+		<string>iOS×BLE Core Bluetooth プログラミング</string>
+		<key>著者</key>
+		<string>堤修一</string>
+		<key>価格</key>
+		<integer>4320</integer>
+		<key>種類</key>
+		<string>単行本</string>
+		<key>発売日</key>
+		<date>2015-03-22T15:00:00Z</date>
+	</dict>
+    <dict>
+        <key>表題</key>
+        <string>iOSアプリ開発 達人のレシピ 100</string>
+        <key>著者</key>
+        <string>堤修一</string>
+        <key>価格</key>
+        <integer>2430</integer>
+        <key>種類</key>
+        <string>電子書籍</string>
+        <key>発売日</key>
+        <date>2013-06-01T15:00:00Z</date>
+    </dict>
+    <dict>
+        <key>表題</key>
+        <string>cocos2d-x ではじめるスマートフォンゲーム開発</string>
+        <key>著者</key>
+        <string>三木康暉</string>
+        <key>価格</key>
+        <integer>3218</integer>
+        <key>種類</key>
+        <string>大型本</string>
+        <key>発売日</key>
+        <date>2014-12-27T15:00:00Z</date>
+    </dict>
+    <dict>
+        <key>表題</key>
+        <string>SpriteKit iPhone 2D ゲームプログラミング</string>
+        <key>著者</key>
+        <string>STUDIO SHIN</string>
+        <key>価格</key>
+        <integer>2808</integer>
+        <key>種類</key>
+        <string>単行本</string>
+        <key>発売日</key>
+        <date>2014-01-28T15:00:00Z</date>
+    </dict>
+    <dict>
+        <key>表題</key>
+        <string>iPhoneアプリ開発レシピ</string>
+        <key>著者</key>
+        <string>佐藤伸吾</string>
+        <key>価格</key>
+        <integer>3456</integer>
+        <key>種類</key>
+        <string>単行本</string>
+        <key>発売日</key>
+        <date>2013-04-18T15:00:00Z</date>
+    </dict>
+    <dict>
+        <key>表題</key>
+        <string>iPhoneプログラミング UIKit 詳解リファレンス</string>
+        <key>著者</key>
+        <string>所友太</string>
+        <key>価格</key>
+        <integer>4104</integer>
+        <key>種類</key>
+        <string>単行本</string>
+        <key>発売日</key>
+        <date>2010-01-12T15:00:00Z</date>
+    </dict>
+</array>
+</plist>

@@ -12,6 +12,7 @@
 		B1587C5E1BE8CB90001E0E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1587C5C1BE8CB90001E0E1D /* Main.storyboard */; };
 		B1587C601BE8CB90001E0E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1587C5F1BE8CB90001E0E1D /* Assets.xcassets */; };
 		B1587C631BE8CB90001E0E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1587C611BE8CB90001E0E1D /* LaunchScreen.storyboard */; };
+		B1587C6B1BE8CE31001E0E1D /* BookList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1587C6A1BE8CE31001E0E1D /* BookList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B1587C5F1BE8CB90001E0E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1587C621BE8CB90001E0E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1587C641BE8CB90001E0E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1587C6A1BE8CE31001E0E1D /* BookList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B1587C5A1BE8CB90001E0E1D /* ViewController.swift */,
 				B1587C5C1BE8CB90001E0E1D /* Main.storyboard */,
 				B1587C5F1BE8CB90001E0E1D /* Assets.xcassets */,
+				B1587C6A1BE8CE31001E0E1D /* BookList.plist */,
 				B1587C611BE8CB90001E0E1D /* LaunchScreen.storyboard */,
 				B1587C641BE8CB90001E0E1D /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 				B1587C631BE8CB90001E0E1D /* LaunchScreen.storyboard in Resources */,
 				B1587C601BE8CB90001E0E1D /* Assets.xcassets in Resources */,
 				B1587C5E1BE8CB90001E0E1D /* Main.storyboard in Resources */,
+				B1587C6B1BE8CE31001E0E1D /* BookList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
