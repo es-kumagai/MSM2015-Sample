@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet var booksTableView:UITableView!
+    @IBOutlet var totalPriceLabel:UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,17 +58,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func sortSelectorSegmentedControlDidChange(sender:UISegmentedControl) {
+    @IBAction func sortSelectorSegmentedControlValueChanged(sender:UISegmentedControl) {
         
         switch sender.selectedSegmentIndex {
             
-        case 0:
+        case 1:
             self.booksFilter = { $0.sortByTitle() }
             
-        case 1:
+        case 2:
             self.booksFilter = { $0.sortByPrice() }
             
-        case 2:
+        case 3:
             self.booksFilter = { $0.sortByPublish() }
             
         default:
@@ -81,6 +82,18 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDataSource, UITableViewDelegate {
     
+    var selectedBooksPrice:Int {
+        
+        guard let indexPaths = self.booksTableView.indexPathsForSelectedRows else {
+
+            return 0
+        }
+        
+        let books = indexPaths.map { $0.row } .map { self.filteredBooks[$0] }
+
+        return books.reduce(0) { $0 + $1.price }
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return self.filteredBooks.count
@@ -93,6 +106,16 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         cell.book = self.filteredBooks[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+
+        self.totalPriceLabel.text = "\(self.selectedBooksPrice)"
+    }
+    
+    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        self.totalPriceLabel.text = "\(self.selectedBooksPrice)"
     }
 }
 
