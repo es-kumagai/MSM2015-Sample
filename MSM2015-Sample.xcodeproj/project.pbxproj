@@ -66,10 +66,8 @@
 				B1587C5A1BE8CB90001E0E1D /* ViewController.swift */,
 				B1D7D6C01BE99CD3000965A5 /* BookTableViewCell.swift */,
 				B1587C5C1BE8CB90001E0E1D /* Main.storyboard */,
-				B1587C5F1BE8CB90001E0E1D /* Assets.xcassets */,
 				B1587C6A1BE8CE31001E0E1D /* BookList.plist */,
-				B1587C611BE8CB90001E0E1D /* LaunchScreen.storyboard */,
-				B1587C641BE8CB90001E0E1D /* Info.plist */,
+				B1A4B4A91BEB8F8B0085E033 /* Support Files */,
 			);
 			path = "MSM2015-Sample";
 			sourceTree = "<group>";
@@ -82,6 +80,16 @@
 				B1A4B4A61BEB58700085E033 /* Codes.playground */,
 			);
 			path = Attachment;
+			sourceTree = "<group>";
+		};
+		B1A4B4A91BEB8F8B0085E033 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1587C5F1BE8CB90001E0E1D /* Assets.xcassets */,
+				B1587C611BE8CB90001E0E1D /* LaunchScreen.storyboard */,
+				B1587C641BE8CB90001E0E1D /* Info.plist */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
