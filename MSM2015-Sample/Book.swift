@@ -40,18 +40,3 @@ extension Book.Kind {
         }
     }
 }
-
-extension Book.Kind : CustomStringConvertible {
-    
-    var description:String {
-        
-        switch self {
-            
-        case .PaperBook:
-            return "単行本"
-            
-        case .DigitalBook:
-            return "電子書籍"
-        }
-    }
-}
