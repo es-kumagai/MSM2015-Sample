@@ -56,4 +56,25 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
     }
 }
 
+//: ## Book.Kind を CustomStringConvertible に対応させる
+//:
+//: 対応させると、意図した通りに文字列化されるようになります。これで Book.Kind にどういう文字列に変換できるかという振る舞いを持たせられたことになります。
+
+//: ### Book.swift
+
+extension Book.Kind : CustomStringConvertible {
+    
+    var description:String {
+        
+        switch self {
+            
+        case .PaperBook:
+            return "単行本"
+            
+        case .DigitalBook:
+            return "電子書籍"
+        }
+    }
+}
+
 //: [Next](@next)

@@ -1,5 +1,5 @@
 //: [Previous](@previous)
-//: # データをブックに取り込む
+//: # ファイルから本の一覧を取り込む
 //:
 
 import UIKit

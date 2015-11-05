@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='本を表現するデータ型を作る'/>
-        <page name='データをブックに取り込む'/>
+        <page name='ファイルから取り込む'/>
         <page name='テーブルビューに表示する'/>
-        <page name='書籍の種類を適切に表示する'/>
         <page name='並び替え機能をつける'/>
-        <page name='選択した本の合計金額を出せるようにする '/>
+        <page name='選択した本の合計金額を出表示する'/>
     </pages>
 </playground>
