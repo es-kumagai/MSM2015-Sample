@@ -26,6 +26,7 @@
 		B1587C641BE8CB90001E0E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1587C6A1BE8CE31001E0E1D /* BookList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookList.plist; sourceTree = "<group>"; };
 		B1A4B4A61BEB58700085E033 /* Codes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Codes.playground; sourceTree = "<group>"; };
+		B1A4B4A71BEB6C290085E033 /* Agenda.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = Agenda.key; sourceTree = "<group>"; };
 		B1D7D6C01BE99CD3000965A5 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +76,7 @@
 		B1A4B4A51BEB584F0085E033 /* Attachment */ = {
 			isa = PBXGroup;
 			children = (
+				B1A4B4A71BEB6C290085E033 /* Agenda.key */,
 				B1A4B4A61BEB58700085E033 /* Codes.playground */,
 			);
 			path = Attachment;
