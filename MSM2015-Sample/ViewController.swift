@@ -46,16 +46,12 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return self.books.count
+        return 0
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("BookCell") as! BookTableViewCell
-        
-        cell.book = self.books[indexPath.row]
-        
-        return cell
+        fatalError("Not Implemented yet")
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
