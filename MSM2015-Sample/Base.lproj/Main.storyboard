@@ -86,7 +86,7 @@
                                                             <color key="textColor" red="0.4384974539" green="0.26094529030000002" blue="0.2657999694" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="w2v-4L-2JM">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="w2v-4L-2JM">
                                                             <rect key="frame" x="16" y="33" width="288" height="20"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="S9u-01-ls6">
@@ -109,7 +109,7 @@
                                                                     </subviews>
                                                                     <animations/>
                                                                 </stackView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" misplaced="YES" text="発売日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fgS-UX-dZk">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" text="発売日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fgS-UX-dZk">
                                                                     <rect key="frame" x="252" y="0.0" width="36" height="20"/>
                                                                     <animations/>
                                                                     <constraints>
@@ -159,7 +159,7 @@
                                                     <outlet property="authorLabel" destination="z4g-pv-b29" id="Zfn-fp-Tr6"/>
                                                     <outlet property="kindLabel" destination="GEP-wt-PFa" id="l3r-Q0-tzY"/>
                                                     <outlet property="priceLabel" destination="kjD-t6-Dcg" id="bZ3-xa-urY"/>
-                                                    <outlet property="publishLabel" destination="fgS-UX-dZk" id="tYh-9P-rdn"/>
+                                                    <outlet property="publishDateLabel" destination="fgS-UX-dZk" id="8ki-5k-24g"/>
                                                     <outlet property="titleLabel" destination="JU0-XD-6rS" id="nQL-IV-Tft"/>
                                                 </connections>
                                             </tableViewCell>
