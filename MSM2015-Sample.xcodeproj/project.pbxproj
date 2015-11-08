@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10182C61BEF068B0077873B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10182C51BEF068B0077873B /* Book.swift */; };
+		B10182C81BEF24290077873B /* SortBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10182C71BEF24290077873B /* SortBooks.swift */; };
 		B1587C591BE8CB90001E0E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1587C581BE8CB90001E0E1D /* AppDelegate.swift */; };
 		B1587C5B1BE8CB90001E0E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1587C5A1BE8CB90001E0E1D /* ViewController.swift */; };
 		B1587C5E1BE8CB90001E0E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1587C5C1BE8CB90001E0E1D /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10182C51BEF068B0077873B /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		B10182C71BEF24290077873B /* SortBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortBooks.swift; sourceTree = "<group>"; };
 		B1587C551BE8CB90001E0E1D /* MSM2015-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSM2015-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1587C581BE8CB90001E0E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1587C5A1BE8CB90001E0E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +29,6 @@
 		B1587C621BE8CB90001E0E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1587C641BE8CB90001E0E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1587C6A1BE8CE31001E0E1D /* BookList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookList.plist; sourceTree = "<group>"; };
-		B1A4B4A61BEB58700085E033 /* Codes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Codes.playground; sourceTree = "<group>"; };
-		B1A4B4A71BEB6C290085E033 /* Agenda.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = Agenda.key; sourceTree = "<group>"; };
-		B1A4B4A81BEB8E570085E033 /* Profile.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = Profile.key; sourceTree = "<group>"; };
 		B1D7D6C01BE99CD3000965A5 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +46,6 @@
 		B1587C4C1BE8CB90001E0E1D = {
 			isa = PBXGroup;
 			children = (
-				B1A4B4A51BEB584F0085E033 /* Attachment */,
 				B1587C571BE8CB90001E0E1D /* MSM2015-Sample */,
 				B1587C561BE8CB90001E0E1D /* Products */,
 			);
@@ -65,21 +65,13 @@
 				B1587C581BE8CB90001E0E1D /* AppDelegate.swift */,
 				B1587C5A1BE8CB90001E0E1D /* ViewController.swift */,
 				B1D7D6C01BE99CD3000965A5 /* BookTableViewCell.swift */,
+				B10182C51BEF068B0077873B /* Book.swift */,
+				B10182C71BEF24290077873B /* SortBooks.swift */,
 				B1587C5C1BE8CB90001E0E1D /* Main.storyboard */,
 				B1587C6A1BE8CE31001E0E1D /* BookList.plist */,
 				B1A4B4A91BEB8F8B0085E033 /* Support Files */,
 			);
 			path = "MSM2015-Sample";
-			sourceTree = "<group>";
-		};
-		B1A4B4A51BEB584F0085E033 /* Attachment */ = {
-			isa = PBXGroup;
-			children = (
-				B1A4B4A81BEB8E570085E033 /* Profile.key */,
-				B1A4B4A71BEB6C290085E033 /* Agenda.key */,
-				B1A4B4A61BEB58700085E033 /* Codes.playground */,
-			);
-			path = Attachment;
 			sourceTree = "<group>";
 		};
 		B1A4B4A91BEB8F8B0085E033 /* Support Files */ = {
@@ -164,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10182C81BEF24290077873B /* SortBooks.swift in Sources */,
+				B10182C61BEF068B0077873B /* Book.swift in Sources */,
 				B1D7D6C11BE99CD3000965A5 /* BookTableViewCell.swift in Sources */,
 				B1587C5B1BE8CB90001E0E1D /* ViewController.swift in Sources */,
 				B1587C591BE8CB90001E0E1D /* AppDelegate.swift in Sources */,
